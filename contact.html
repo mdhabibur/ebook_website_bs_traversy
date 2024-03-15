@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Free Ebook | Start Your Own Blog</title>
+		<!-- favicon  -->
+		<link rel="icon" href="/images/favicon.png" type="image/x-icon" />
+
+		<!-- font awesome  -->
+		<link
+			rel="stylesheet"
+			href="node_modules/@fortawesome/fontawesome/styles.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+		/>
+
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<!-- navbar  -->
+		<nav
+			class="navbar navbar-expand-md fixed-top py-3 text-white"
+			id="navbarTop"
+		>
+			<div class="container">
+				<!-- company logo  -->
+				<a href="#" class="navbar-brand">
+					<img src="images/logo.png" alt="company logo" width="225px" />
+				</a>
+
+				<!-- navbar toggler for medium screen and below  -->
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarNav"
+					aria-controls="navbarNav"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon" role="button">
+						<i class="fa fa-bars" style="color: #fff; font-size: 30px"></i>
+					</span>
+				</button>
+
+				<!-- Navbar links  -->
+
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav ms-auto align-items-center">
+						<li class="nav-item px-2">
+							<a href="index.html" class="nav-link fs-5 text-white">Home</a>
+						</li>
+						<li class="nav-item px-2">
+							<a href="#details" class="nav-link fs-5 text-white">Details</a>
+						</li>
+						<li class="nav-item px-2">
+							<a
+								class="nav-link d-flex align-items-center justify-content-center"
+								href="contact.html"
+							>
+								<button class="btn btn-outline-light rounded-5 btn-lg w-100">
+									Contact
+								</button>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<!-- header section  -->
+		<header id="header">
+			<section id="hero" class="hero pt-6">
+				<div class="container">
+					<div class="row py-5 text-white">
+						<h1>Contact Information</h1>
+					</div>
+				</div>
+
+				<!-- wave svg  -->
+
+				<svg
+					class="frame-decoration wave-svg"
+					data-name="Layer 2"
+					xmlns="http://www.w3.org/2000/svg"
+					preserveAspectRatio="none"
+					viewBox="0 0 1920 192.275"
+				>
+					<defs>
+						<style>
+							.cls-1 {
+								fill: #f3f6f9;
+							}
+						</style>
+					</defs>
+					<title>frame-decoration</title>
+					<path
+						class="cls-1"
+						d="M0,158.755s63.9,52.163,179.472,50.736c121.494-1.5,185.839-49.738,305.984-49.733,109.21,0,181.491,51.733,300.537,50.233,123.941-1.562,225.214-50.126,390.43-50.374,123.821-.185,353.982,58.374,458.976,56.373,217.907-4.153,284.6-57.236,284.6-57.236V351.03H0V158.755Z"
+						transform="translate(0 -158.755)"
+					/>
+				</svg>
+			</section>
+		</header>
+
+		<!-- contact sections  -->
+		<section id="contact" class="contact pb-5 bg-similar-to-svg-wave">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<form   action="https://formspree.io/f/xkndzdjv"
+                        method="POST">
+							<div class="mb-3">
+								<label for="name" class="form-label">Name</label>
+								<input
+									type="text"
+									class="form-control"
+									id="name"
+									name="name"
+									placeholder="Enter your name"
+								/>
+							</div>
+							<div class="mb-3">
+								<label for="email" class="form-label">Email address</label>
+								<input
+									type="email"
+									class="form-control"
+									name="email"
+									id="email"
+									placeholder="name@example.com"
+								/>
+							</div>
+							<div class="mb-3">
+								<label for="message" class="form-label">Message</label>
+								<textarea
+									class="form-control"
+									id="message"
+									rows="5"
+									name="message"
+									placeholder="Enter your message"
+								></textarea>
+							</div>
+							<button type="submit" class="btn btn-primary btn-lg text-white">
+								Submit
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- location sections  -->
+		<section id="location" class="location py-5">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-10 offset-sm-1 d-flex flex-column gap-3">
+						<h3>Our Location</h3>
+						<p class="fs-6">
+							Lorem ipsum dolor sit amet consectetur adipisicing elit.
+							Laboriosam natus atque aliquam earum facere porro quos, molestiae
+							sunt? Tempora maiores libero laudantium tempore quia, eligendi,
+							magni odio repellendus eius voluptatibus laboriosam. Corporis et
+							at voluptates?
+						</p>
+
+						<div id="map-container" class="border">
+							<iframe
+								style="width: 100%; height: 400px; border: 0"
+								allowfullscreen=""
+								loading="lazy"
+								referrerpolicy="no-referrer-when-downgrade"
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.616793285629!2d90.38887317484502!3d23.72537488973759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8dd1efd2125%3A0x37be65aaef502a26!2sTitumir%20Hall!5e0!3m2!1sen!2sbd!4v1710460356286!5m2!1sen!2sbd"
+								width="600"
+								height="450"
+								style="border: 0"
+								allowfullscreen=""
+								loading="lazy"
+								referrerpolicy="no-referrer-when-downgrade"
+							></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- bottom section  -->
+		<section id="bottom" class="bottom d-flex flex-column">
+			<!-- social sections  -->
+			<section
+				id="socials"
+				class="socials bg-dark py-4 pt-6 pb-6 text-white border-bottom"
+			>
+				<div class="container">
+					<div class="row">
+						<div
+							class="col-md-8 offset-md-2 d-flex flex-column align-items-center justify-content-center gap-3"
+						>
+							<p class="fs-3">
+								Stay connected and join our vibrant community. For any inquiries
+								or assistance, feel free to reach out to us
+							</p>
+
+							<div class="social-icons">
+								<div class="row">
+									<div class="col-md-12">
+										<div class="row">
+											<div class="col-md-2">
+												<a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+											</div>
+
+											<div class="col-md-2">
+												<a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+											</div>
+
+											<div class="col-md-2">
+												<a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+											</div>
+
+											<div class="col-md-2">
+												<a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+											</div>
+
+											<div class="col-md-2">
+												<a href="#"><i class="fab fa-pinterest fa-2x"></i></a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- footer  -->
+			<footer id="footer" class="footer bg-dark pb-2">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8">
+							<nav class="navbar navbar-expand-md navbar-dark bg-dark py-2">
+								<div>
+									<ul class="navbar-nav align-items-center">
+										<li class="nav-item px-2">
+											<a href="index.html" class="nav-link fs-6">Home</a>
+										</li>
+										<li class="nav-item px-2">
+											<a href="#details" class="nav-link fs-6">Details</a>
+										</li>
+										<li class="nav-item px-2">
+											<a href="contact.html" class="nav-link fs-6">contact</a>
+										</li>
+									</ul>
+								</div>
+							</nav>
+						</div>
+
+						<div
+							class="col-md-4 text-white text-center d-flex flex-column align-items-center justify-content-center"
+						>
+							Copyright @copy; Blog Mastery 2023
+						</div>
+					</div>
+				</div>
+			</footer>
+		</section>
+
+		<!-- Include jQuery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+		<!-- Include Bootstrap JavaScript -->
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+		<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "ebook_website",
+  "version": "1.0.0",
+  "description": "ebook website by me learnt from brad traversy through html,css,bs",
+  "main": "index.js",
+  "scripts": {
+    "sass:build": "sass --no-source-map sass:css",
+    "sass:watch": "sass --no-source-map --watch sass:css"
+  },
+  "author": "Mohammad Ali",
+  "license": "ISC",
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
+    "bootstrap": "^5.3.3",
+    "sass": "^1.72.0"
+  }
+}

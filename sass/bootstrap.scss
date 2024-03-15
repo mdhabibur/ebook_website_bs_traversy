@@ -1,0 +1,33 @@
+//our own styles in bootstrap
+// Font
+$font-family-sans-serif: 'Open Sans', sans-serif;
+
+//re-defining bootstrap colors
+$primary:#ca7ef1;
+$secondary:#10bcee;
+$light:#e7ebef;
+$dark:#2b3041;
+
+
+
+// scss-docs-start spacer-variables-maps
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 6,
+  8: $spacer * 8,
+  10: $spacer * 10,
+) !default;
+
+//enable negative margins
+$enable-negative-margins: true;
+
+
+// import bootstrap scss 
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
