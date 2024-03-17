@@ -1,0 +1,74 @@
+:root {
+	--primary-color: #ca7ef1;
+	--secondary-color: #10bcee;
+}
+
+/* global */
+.bg-semi-light {
+	background-color: rgb(255, 255, 255);
+}
+
+.bg-semi-light2 {
+	background-color: rgb(248, 228, 206);
+}
+.bg-similar-to-svg-wave{
+    background-color: #f3f6f9;
+}
+
+/* navbar styles */
+.navbar-nav .nav-item .nav-link:hover {
+	color: var(--secondary-color);
+}
+
+.navbar {
+	transition: all 0.3s ease-in-out; /* Add transition for smooth color change */
+}
+
+/* .navbar-toggler-icon {
+    background-color: white;
+
+} */
+
+.navbar-scrolled {
+	background-color: rgba(0, 0, 0, 0.6);
+	box-shadow: 0 0 3px 5px rgba(0, 0, 0, 0.6);
+}
+
+/* also when screen size is smaller set transparent navbar  */
+@media (max-width: 992px) {
+	#navbarTop {
+		background-color: rgba(0, 0, 0, 0.6);
+		box-shadow: 0 0 3px 5px rgba(0, 0, 0, 0.6);
+	}
+}
+
+/* global */
+
+/* hero section  */
+header#header {
+	background: url("../images/header-background.jpg") center center no-repeat;
+	background-size: cover;
+}
+
+/* icons sections  */
+section#icons {
+	background-color: #f3f6f9;
+}
+
+/* description modals  */
+@media (max-width: 992px) {
+	.modal-in-smaller-screen {
+		max-width: 100%;
+	}
+}
+
+/* testimonial-sections */
+.font-italic {
+	font-style: italic;
+}
+
+/* get ebook section  */
+section#getEbook {
+	background: url("../images/download-background.jpg") center center no-repeat;
+	background-size: cover;
+}
